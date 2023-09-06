@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menuFi {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px;
+    padding-right: 1px;
+    background-color: black;
+}
+
+.logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.enlaces a {
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 50px;
+    position: relative;
+
+}
