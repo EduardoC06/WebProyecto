@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="EstiloP\estilosSub.css">
+    <title>Contactenos</title>
+</head>
+
+<body>
+    <div class="menuFi">
+        <div class="logo">
+            <a href="#">CAP Brewery</a>
+        </div>
+
+        <nav class="enlaces">
+            <a href="Index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contactenos.html">Contactenos</a>
+        </nav>
+    </div>
+    
+    <form class="formulario">
+        <div>
+            <label>Nombre</label>
+            <input type="text" name="nom">
+        </div>
+        <div>
+            <label>Apellido</label>
+            <input type="text" name="apel">
+        </div>
+        <div>
+            <label>DNI</label>
+            <input type="text" name="dni">
+        </div>
+        <div>
+            <label>Correo</label>
+            <input type="text" name="corr">
+        </div>
+        <div>
+            <label>Num celular</label>
+            <input type="text" name="numC">
+        </div>
+        <div>
+            <label>Estado civil</label>
+            <div>
+                <input type="radio" name="Estado" value="EstadoC">Casado
+                <input type="radio" name="Estado" value="EstadoC">Soltero
+            </div>
+        </div>
+
+        <div>
+            <label> Tipo de mensaje:</label>
+            <div>
+                <input type="radio" name="Tmensaje"> Consulta
+                <br>
+                <input type="radio" name="Tmensaje"> Solicitud
+                <br>
+                <input type="radio" name="Tmensaje"> Reclamo
+            </div>
+
+        </div>
+
+        <div>
+            <label>Comentario</label>
+            <textarea name="Comentario:"></textarea>
+        </div>
+        <div>
+            <input type="reset" name="reinicar" value="Reiniciar">
+            <input type="submit" name="enviar" value="Enviar">
+        </div>
+
+    </form>
+</body>
+<style>
+    .formulario {
+        display: flex;
+        align-items: cen;
+        justify-content: space-between;
+        flex-direction: column;
+        border: 2px solid black;
+        margin-right: 55em;
+    }
+
+    .formulario div {
+        padding: 10px;
+    }
+
+    .formulario label {
+        margin-right: 100px;
+
+    }
+</style>
+
+</html>
